@@ -2,6 +2,8 @@
 stock_picker chooses the optimum days to buy and sell a stock
 given an array of stock prices
 =end
+#todo: make this more rubylike with each_with_index
+#todo: try and make algo better than n^2
 def stock_picker(sp)
 	i = 0
 	profit = 0
