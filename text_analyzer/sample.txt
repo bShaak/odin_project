@@ -1,0 +1,4 @@
+Ruby is a programming language. I like cupcakes.
+
+Also, this is some sample text to feed into the alayzer program.
+Thanks.
