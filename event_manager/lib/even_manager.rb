@@ -64,9 +64,7 @@ contents.each do |row|
 	legislators = legislators_by_zipcode(zipcode)
 
 	phone = clean_phone_number(row[:homephone])
-	#puts phone
-
-	#puts row[:regdate].to_s
+	
 	date = row[:regdate]
 	hour = get_signup_hour(date)
 	day = get_signup_day(date)
@@ -75,7 +73,7 @@ contents.each do |row|
 
 	form_letter = erb_template.result(binding)
 
-	#save_thank_you_letters(id, form_letter)
+	save_thank_you_letters(id, form_letter)
 end
 
 puts hours
