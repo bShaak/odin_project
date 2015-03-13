@@ -54,7 +54,7 @@ class SecretWord
 				chosen = line if rand < 1.0/(i+1)
 			end
 		end
-		puts chosen
+		#puts chosen
 		return chosen.downcase
 	end
 end
