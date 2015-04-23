@@ -1,0 +1,17 @@
+--- !ruby/object:Game
+secret_word: !ruby/object:SecretWord
+  word: misclassify
+  letters_guessed:
+  - m
+  - _
+  - s
+  - c
+  - _
+  - _
+  - s
+  - s
+  - _
+  - f
+  - _
+turns: 2
+is_game_over: false
